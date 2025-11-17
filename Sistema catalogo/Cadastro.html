@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro - Xama Aí</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <img src="assets/logo (2).png" class="logo" />
+
+      <p id="erro-cadastro" class="error"></p>
+
+      <input
+        id="cad-usuario"
+        class="input-box"
+        type="text"
+        placeholder="Nome de usuário"
+      />
+      <input
+        id="cad-email"
+        class="input-box"
+        type="email"
+        placeholder="Email"
+      />
+      <input
+        id="cad-senha"
+        class="input-box"
+        type="password"
+        placeholder="Senha"
+      />
+      <input
+        id="cad-confirmar"
+        class="input-box"
+        type="password"
+        placeholder="Confirmar a senha"
+      />
+
+      <button class="btn" onclick="cadastrar()">Finalizar cadastro</button>
+
+      <a class="link" href="login.html">Já tem conta? Entrar</a>
+    </div>
+  </body>
+</html>
